@@ -9,7 +9,7 @@ ENV LAST_UPDATE=2016-08-21
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y tzdata
+    apt-get install -y tzdata locales
 
 # Set the timezone
 RUN echo "Europe/Berlin" | tee /etc/timezone && \
