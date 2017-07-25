@@ -23,8 +23,7 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
-# AWS CLI needs the PYTHONIOENCODING environment varialbe to handle UTF-8 
-correctly:
+# AWS CLI needs the PYTHONIOENCODING environment varialbe to handle UTF-8 correctly:
 ENV PYTHONIOENCODING=UTF-8
 
 # man and less are needed to view 'aws <command> help'
