@@ -39,6 +39,7 @@ RUN apt-get install -y \
     python \
     python-pip \
     python-virtualenv \
-    vim 
+    vim \
+    git
 
 RUN pip install awscli
