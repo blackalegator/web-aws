@@ -8,7 +8,8 @@ ENV LAST_UPDATE=2016-08-21
 #####################################################################################
 
 RUN apt-get update && \
-    apt-get upgrade -y
+    apt-get upgrade -y \
+    apt-get install -y tzdata
 
 # Set the timezone
 RUN echo "Europe/Berlin" | tee /etc/timezone && \
