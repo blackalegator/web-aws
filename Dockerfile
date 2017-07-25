@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Fabian Stäber, fabian@fstab.de
+MAINTAINER blackalegator
 
 ENV LAST_UPDATE=2016-08-21
 
